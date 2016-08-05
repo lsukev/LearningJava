@@ -22,6 +22,9 @@ public class Arrays {
         System.out.println("Val 2: " + tomsAverages[1]);
         System.out.println("Val 3: " + tomsAverages[2]);
 
+        tomsAverages[0] = 100;
+        System.out.println(tomsAverages[0]);
+
         String[] top5Cars = {
                 "GTR","Aston Martin","Mustang","Lamborghini", "Ferrari"
         };
@@ -29,5 +32,9 @@ public class Arrays {
         System.out.println(top5Cars[2]);
         System.out.println(top5Cars[4]);
 
+        System.out.println("Total Cars: " + top5Cars.length);
+        System.out.println("Last Car: " + top5Cars[(top5Cars.length - 1)]);
+
+        
     }
 }
