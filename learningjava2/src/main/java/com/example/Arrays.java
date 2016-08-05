@@ -35,6 +35,6 @@ public class Arrays {
         System.out.println("Total Cars: " + top5Cars.length);
         System.out.println("Last Car: " + top5Cars[(top5Cars.length - 1)]);
 
-        
+
     }
 }
